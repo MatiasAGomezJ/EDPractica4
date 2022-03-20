@@ -1,5 +1,5 @@
 # ED - Practica 4 - Refactorizaciones
-## Trabajo hecho por Matias Alejandro Gomez Jatab & Joan Llompart
+## Trabajo hecho por Matias Alejandro Gomez Jatab & Joan Llompart Socias
 
 Para empezar hemos creado un neuvo repositorio a partir de la version 1.1.0 del reposotorio https://github.com/JuanLlado/Practica4.
 
