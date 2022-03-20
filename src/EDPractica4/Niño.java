@@ -18,7 +18,10 @@ public class Niño extends Persona{
         super(nombre, DNI, edad);
         this.colegio = colegio;
     }
-    
+
+    public Niño() {
+    }
+
     public void comprarJuguete(Juguete juguete){
         this.juguete = juguete;
     }
