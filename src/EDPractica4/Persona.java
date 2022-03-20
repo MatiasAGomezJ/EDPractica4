@@ -55,5 +55,22 @@ public abstract class Persona {
     public void setEdad(int edad) {
         this.edad = edad;
     }
-        
+
+    /**
+     * @author MatiasAGomezJ
+     * @param raza
+     * @param nombre
+     * @param edad
+     */
+    public void conseguirPerro(String raza, String nombre, int edad) {
+        perro = new Perro(raza, nombre, edad);
+    }
+
+    /**
+     * @author MatiasAGomezJ
+     * @return Información del perro
+     */
+    public String getPerro() {
+        return perro.toString();
+    }
 }
