@@ -73,4 +73,22 @@ public abstract class Persona {
     public String getPerro() {
         return perro.toString();
     }
+
+    /**
+     * @author MatiasAGomezJ
+     * @param color
+     * @param nombre
+     * @param edad
+     */
+    public void conseguirGato(String color, String nombre, int edad) {
+        gato = new Gato(color, nombre, edad);
+    }
+
+    /**
+     * @author MatiasAGomezJ
+     * @return Información del gato
+     */
+    public String getGato() {
+        return gato.toString();
+    }
 }
