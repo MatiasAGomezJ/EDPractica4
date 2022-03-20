@@ -21,6 +21,9 @@ public class Adulto extends Persona{
         this.direccion = direccion;
     }
 
+    public Adulto() {
+    }
+
     public String getNSS() {
         return NSS;
     }
